@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const methodoverride = require("method-override");
 const mongoose = require("mongoose");
@@ -9,5 +10,5 @@ app.set("view engine", "ejs");
 
 // Routes
 app.get("/", (req, res) => {
-  res.render("home")
+  res.render("home");
 });
