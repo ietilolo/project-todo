@@ -1,0 +1,19 @@
+{
+  "name": "project-todo",
+  "version": "1.0.0",
+  "description": "Basic todo app using MongoDB, Express.JS, Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedidiahlolo/project-todo.git"
+  },
+  "author": "Ieti Lolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedidiahlolo/project-todo/issues"
+  },
+  "homepage": "https://github.com/jedidiahlolo/project-todo#readme"
+}
