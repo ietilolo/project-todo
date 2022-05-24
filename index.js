@@ -3,10 +3,11 @@ const express = require("express");
 const methodoverride = require("method-override");
 const mongoose = require("mongoose");
 const Todo = require("./models/Todo");
-const PORT = process.env.PORT
+const PORT = process.env.PORT;
+const CONNECT_URL = process.env.CONNECT_URL;
 
 // Mongoose connect
-mongoose.connect('mongodb://localhost:27017/todoapp')
+mongoose.connect(CONNECT_URL)
   .then(() => {
     console.log("Connection: Open");
   });
