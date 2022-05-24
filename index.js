@@ -16,3 +16,11 @@ app.listen(PORT, () => {
 app.get("/", (req, res) => {
   res.render("home");
 });
+
+app.get("/todos", (req, res) => {
+  res.render("todos");
+});
+
+app.get("/todos/add", (req, res) => {
+  res.render("add");
+});
