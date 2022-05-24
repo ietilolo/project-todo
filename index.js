@@ -2,7 +2,14 @@ require("dotenv").config();
 const express = require("express");
 const methodoverride = require("method-override");
 const mongoose = require("mongoose");
+const Todo = require("./models/Todo");
 const PORT = process.env.PORT
+
+// Mongoose connect
+mongoose.connect('mongodb://localhost:27017/todoapp')
+  .then(() => {
+    console.log("Connection: Open");
+  });
 
 // Config
 const app = express();
