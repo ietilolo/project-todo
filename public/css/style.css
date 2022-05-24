@@ -1,0 +1,14 @@
+.list-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+}
+
+.list-container .list-group .list-title {
+  color: #0080DC;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+
+  .list-group {
+
+    .list-title {
+      color: #0080DC;
+    }
+  }
+}
